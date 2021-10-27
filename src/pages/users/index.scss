@@ -1,0 +1,78 @@
+.user-page-wrapper {
+  height: 90vh;
+
+  .card {
+    height: 100%;
+
+    .card-header {
+        background-color: #fff;
+    }
+
+    .table-username-link {
+        color: #7367f0;
+        text-decoration: none;
+    }
+
+    .table-role-column {
+      color: #625f6e !important;
+
+      .table-role-icon {
+          font-size: 17px;
+          margin-right: 5px;
+      }
+    }
+
+    .table-admin-status {
+      font-size: 12px;
+      color: #28c76f!important;
+      background-color: rgba(40,199,111,.12);
+    }
+    .table-sale-status {
+      font-size: 12px;
+      color: #ff9f43!important;
+      background-color: rgba(255,159,67,.12);
+    }
+    .table-client-status {
+      font-size: 12px;
+      background-color: rgba(130,134,139,.12);
+      color: #82868b!important;
+    }
+  }
+}
+
+.edit-user-page-wrapper {
+  .card {
+
+    .user-input-form {
+      .form-group {
+        margin-bottom: 20px;
+      }
+      label {
+        font-size: 12px;
+      }
+      input {
+        font-size: 13px;
+      }
+      .close-icon {
+        font-size: 24px;
+        cursor: pointer;
+      }
+
+      .teams-input-form {
+        border-bottom: 1px solid #82868b;
+        margin-bottom: 10px;
+        
+        .form-group {
+          margin-bottom: 10px;
+        }
+      }
+
+      .user-edit-form-button-wrapper {
+        button {
+          margin-right: 20px !important;
+          font-size: 15px !important;
+        }
+      }
+    }
+  }
+}

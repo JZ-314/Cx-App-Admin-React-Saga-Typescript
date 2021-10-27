@@ -1,0 +1,12 @@
+export const FETCH_USER_REQUEST = 'FETCH_USER_REQUEST' as const;
+export const FETCH_USER_SUCCESS = 'FETCH_USER_SUCCESS' as const;
+export const FETCH_USER_FAILURE = 'FETCH_USER_FAILURE' as const;
+export const CREATE_USER_REQUEST = 'CREATE_USER_REQUEST' as const;
+export const CREATE_USER_SUCCESS = 'CREATE_USER_SUCCESS' as const;
+export const CREATE_USER_FAILURE = 'CREATE_USER_FAILURE' as const;
+export const UPDATE_USER_REQUEST = 'UPDATE_USER_REQUEST' as const;
+export const UPDATE_USER_SUCCESS = 'UPDATE_USER_SUCCESS' as const;
+export const UPDATE_USER_FAILURE = 'UPDATE_USER_FAILURE' as const;
+export const DELETE_USER_REQUEST = 'DELETE_USER_REQUEST' as const;
+export const DELETE_USER_SUCCESS = 'DELETE_USER_SUCCESS' as const;
+export const DELETE_USER_FAILURE = 'DELETE_USER_FAILURE' as const;
